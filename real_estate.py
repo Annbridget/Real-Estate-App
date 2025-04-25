@@ -2,8 +2,6 @@ import streamlit as st
 import pandas as pd
 import string
 import nltk
-nltk.download('punkt_tab')
-
 from nltk.tokenize import word_tokenize
 from nltk.corpus import stopwords, wordnet
 from nltk.stem import WordNetLemmatizer, PorterStemmer
