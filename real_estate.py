@@ -65,4 +65,3 @@ if st.button("Press Enter") and user_input:
     result = get_answer(user_input)
     st.write("**Category:**", result["Category"])
     st.write("**Answer:**", result["Answer"])
-
